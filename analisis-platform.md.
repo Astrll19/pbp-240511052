@@ -1,0 +1,18 @@
+
+# Analisis Platform
+
+Nama: Muhammad Nanda Orgastra
+NIM: 240511052
+Kelas: TI24C
+Mata Kuliah: Pemrograman Berbasis Platform
+
+## Tabel Analisis Platform
+
+| Aspek | Web | Desktop | Mobile |
+|---|---|---|---|
+| Arsitektur | Client-Server | Standalone / Client-Server | Client-Server |
+| Bahasa Utama | HTML, CSS, JavaScript | Java, C#, Python | Kotlin, Java, Swift |
+| Distribusi | Melalui browser dan internet | Instalasi pada sistem operasi | Melalui Play Store atau App Store |
+| Keunggulan | Mudah diakses tanpa instalasi, lintas perangkat | Dapat berjalan secara offline dan memiliki akses ke hardware | Mendukung fitur smartphone seperti GPS, kamera, dan sensor |
+| Keterbatasan | Bergantung pada browser dan koneksi internet untuk layanan online | Perlu instalasi dan menyesuaikan sistem operasi | Bergantung pada spesifikasi perangkat dan sistem operasi |
+| Contoh Aplikasi | Gmail, Facebook, Tokopedia | VS Code, Photoshop, Spotify | WhatsApp, Instagram, Gojek |
