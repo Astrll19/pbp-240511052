@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f5f7fb">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <p class="eyebrow">RUANG UNTUK FOKUS</p>
+      <h1>To-Do List <span aria-hidden="true">✦</span></h1>
+      <p class="subtitle">Satu langkah kecil hari ini, satu progres baru.</p>
+    </header>
+
+    <form id="form-todo" class="form-todo">
+      <label class="sr-only" for="input-todo">Tugas baru</label>
+      <input
+        type="text"
+        id="input-todo"
+        placeholder="Apa yang ingin kamu kerjakan?"
+        maxlength="160"
+        autocomplete="off"
+        required
+      >
+      <button type="submit">Tambah <span aria-hidden="true">＋</span></button>
+    </form>
+
+    <section class="task-section" aria-labelledby="task-heading">
+      <div class="list-heading">
+        <h2 id="task-heading">Daftar tugas</h2>
+        <p id="stats" aria-live="polite">0 tugas belum selesai</p>
+      </div>
+      <ul id="list-todo" aria-label="Daftar tugas"></ul>
+      <p id="empty-state" class="empty-state">Belum ada tugas. Tambahkan satu untuk memulai!</p>
+    </section>
+
+    <footer>Data tersimpan otomatis di perangkat ini.</footer>
+  </main>
+</body>
+</html>
