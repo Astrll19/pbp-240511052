@@ -1,0 +1,9 @@
+{
+  "models": [{
+    "title": "Z.ai GLM",
+    "provider": "openai",
+    "model": "glm-4.6",
+    "apiBase": "https://api.z.ai/api/paas/v4",
+    "apiKey": "API_KEY_KAMU"
+  }]
+}
